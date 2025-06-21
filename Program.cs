@@ -7,6 +7,11 @@ namespace WebApplication1
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.WebHost.ConfigureKestrel(serverOptions =>
+            {
+                serverOptions.ListenAnyIP(5000); // porta su cui ascoltare
+            });
+
             // Add services to the container.
 
             builder.Services.AddControllers();
