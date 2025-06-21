@@ -1,0 +1,5 @@
+﻿#!/bin/bash
+export ASPNETCORE_ENVIRONMENT=Production
+export DOTNET_SYSTEM_NET_SOCKETS_INLINE_COMPLETIONS=1
+export DOTNET_TieredPGO=1
+dotnet run
