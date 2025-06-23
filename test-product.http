@@ -1,0 +1,31 @@
+### Test POST - Create a new product
+POST http://localhost:5000/api/products
+Content-Type: application/json
+
+{
+  "name": "Tablet",
+  "description": "High-performance gaming laptop with RTX 4080",
+  "price": 200.99,
+  "stock": 22
+}
+
+### Test GET - Get all products
+GET http://localhost:5000/api/products
+
+### Test GET - Get product by ID (replace {id} with actual ID from POST response)
+GET http://localhost:5000/api/products/1
+
+### Test PUT - Update product (replace {id} with actual ID)
+PUT http://localhost:5000/api/products/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Laptop Gaming Pro",
+  "description": "Ultra high-performance gaming laptop with RTX 4090",
+  "price": 2199.99,
+  "stock": 10
+}
+
+### Test DELETE - Delete product (replace {id} with actual ID)
+DELETE http://localhost:5000/api/products/1

@@ -29,5 +29,14 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
+
+        [HttpPost(Name = "Home")]
+        public async Task<IActionResult> Post()
+        {
+
+
+
+            return Ok();
+        }
     }
 }
