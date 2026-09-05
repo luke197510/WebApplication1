@@ -30,8 +30,8 @@ https://viamotionhsi.netplus.ch/live/eds/la7/browser-HLS8/la7.m3u8
 #EXTINF:-1 tvg-id="Tv8.it" tvg-name="TV8" tvg-chno="8" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/tv8.png" group-title="Sky",TV8
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 
-#EXTINF:-1 tvg-id="Nove.it" tvg-name="NOVE" tvg-chno="9" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/nove.png" group-title="Discovery",NOVE
-https://streaming.aurora.enhanced.live/live/mtc/v1/manifest/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/85a88462-df2b-4bef-a95b-af00f9e0ccfd/0.m3u8?manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Nzc5MjQwNTgsIm5iZiI6MTc3NzkyNDA1OCwiZXhwIjoxNzc3OTI0NDE4LCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiMTA5LjExNi42LjE4NCJ9.uzp5VOQgrOWNWSIhyced0-95-W5aIo-R11FqT0ZHfYs
+#EXTINF:-1,[9] NOVE
+https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8|User-Agent=Mozilla/5.0&Referer=https://samsungtvplus.com
 
 #EXTINF:-1 tvg-id="Mediaset20.it" tvg-name="20 Mediaset" tvg-chno="20" tvg-logo="https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/20mediaset.png" group-title="Mediaset",20 Mediaset
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
